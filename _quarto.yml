@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+  preview: 
+    port: 7614
+
+website:
+  title: "class22"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - hello.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
